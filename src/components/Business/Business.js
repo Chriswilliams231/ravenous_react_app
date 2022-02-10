@@ -5,6 +5,7 @@ import './Business.css'
 
 export default class Business extends React.Component {
 
+
     render() {
         return (
             <div className="Business">
