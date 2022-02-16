@@ -26,7 +26,7 @@ export default class App extends React.Component {
     this.searchYelp = this.searchYelp.bind(this);
   }
   searchYelp(term, location, sortBy) {
-    yelp.search(term, location, sortBy).then((businesses) => {
+    yelp.searchYelp(term, location, sortBy).then((businesses) => {
       this.setState({ businesses: businesses })
     })
   }
