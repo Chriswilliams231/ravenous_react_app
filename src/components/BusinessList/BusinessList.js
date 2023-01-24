@@ -5,10 +5,11 @@ import Business from '../Business/Business'
 export default class BusinessList extends React.Component {
 
     render() {
+        const { business } = this.props;
         return (
             <div className="BusinessList">
                 {
-                    this.props.business.map((business) => {
+                    business.map((business) => {
                         return <Business key={business.id} business={business} />;
                     })
                 }
