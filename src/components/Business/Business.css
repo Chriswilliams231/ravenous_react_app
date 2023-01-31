@@ -6,6 +6,10 @@
   margin: 0 0.5rem 2.3rem 0.5rem;
 }
 
+.business-name{
+  text-align: center;
+}
+
 .Business .image-container {
   height: 15.66rem;
   margin-bottom: 1rem;

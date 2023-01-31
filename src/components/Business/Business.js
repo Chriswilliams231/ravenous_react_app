@@ -19,7 +19,7 @@ export default class Business extends React.Component {
             reviewCount
         } = this.props.business
         return (
-            <div className="Business card">
+            <div className="Business card is-mobile">
                 <div className="image-container">
                     <img src={imageSrc} alt='' />
                 </div>
